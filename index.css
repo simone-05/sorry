@@ -3,11 +3,25 @@
   display: flex;
   overflow: auto;
   min-height: 100vh;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-
+.home-image {
+  width: 200px;
+  position: relative;
+  align-self: flex-end;
+  object-fit: cover;
+  margin-right: 10%;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
 .home-testo {
   color: rgb(255, 0, 199);
   font-size: 40px;
@@ -15,8 +29,7 @@
   text-align: center;
   margin-bottom: var(--dl-space-space-twounits);
 }
-
-.home-container1 {
+.home-container2 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -25,12 +38,11 @@
   align-items: center;
   justify-content: center;
 }
-
-.home-image {
+.home-image1 {
   width: 100%;
   height: 70%;
   object-fit: cover;
-  margin-right: 5%;
+  padding-right: 5%;
   animation-name: rollIn;
   animation-delay: 200ms;
   animation-duration: 1500ms;
@@ -38,15 +50,13 @@
   animation-iteration-count: 1;
   animation-timing-function: linear;
 }
-
-.home-image1 {
+.home-image2 {
   width: 100%;
   height: 250%;
   align-self: center;
   object-fit: cover;
 }
-
-.home-image2 {
+.home-image3 {
   width: 100%;
   height: 80%;
   object-fit: cover;
@@ -58,7 +68,6 @@
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-
 .home-testo1 {
   color: rgb(255, 0, 199);
   font-size: 40px;
@@ -66,8 +75,7 @@
   margin-top: var(--dl-space-space-twounits);
   text-align: center;
 }
-
-.home-image3 {
+.home-image4 {
   width: 200px;
   align-self: flex-end;
   object-fit: cover;
@@ -79,10 +87,40 @@
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-
+.home-image5 {
+  width: 200px;
+  align-self: flex-start;
+  object-fit: cover;
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
 .home-text4 {
+  top: 724px;
+  left: 315px;
+  position: absolute;
+  font-size: 30px;
+}
+.home-text5 {
+  top: 228px;
+  left: 771px;
+  position: absolute;
+  font-size: 30px;
+}
+.home-text6 {
+  top: 124px;
+  left: 293px;
+  position: absolute;
+  font-size: 30px;
+}
+.home-text7 {
+  top: 698px;
+  right: 123px;
+  position: absolute;
+  font-size: 30px;
+}
+.home-text8 {
   top: 250px;
-  left: 200px;
+  left: 157px;
   position: absolute;
   font-size: 30px;
 }
